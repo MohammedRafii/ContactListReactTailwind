@@ -23,7 +23,7 @@ const ContactsCard = ({ contacts }) => {
             <p className="sm:text-xs text-base font-semibold">{item.name}</p>
             <p className="flex   items-center">
               <AiOutlineMail />
-              <span className="mx-2">{`${item.email.slice(0,8)}.me`}</span>
+              <span className="mx-2">{item.email}</span>
             </p>
             <p className="flex  items-center">
               <AiFillPhone />
