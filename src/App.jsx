@@ -24,7 +24,7 @@ function App() {
   return (
     <>
     <div className="w-4/5 mx-auto">
-      <h1>Created by Mohammed Rafi T S<h1/>
+      <h1>Created by Mohammed Rafi T S</h1>
      <ContactsCard contacts={contacts} />
      </div>
     </>
