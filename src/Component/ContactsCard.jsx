@@ -12,8 +12,8 @@ import { BsGlobe2 } from "react-icons/bs";
 const ContactsCard = ({ contacts }) => {
   return (
     <div className="grid lg:my-48 md:grid-cols-3 lg:grid-cols-4  sm:grid-cols-2 justify-center gap-6">
-      {contacts.map((item, index) => (
-        <figure className="max-w-lg  border-gray-300 border " key={index}>
+      {contacts.map((item) => (
+        <figure className="max-w-lg  border-gray-300 border " key={item.id}>
           <img
             className="mb-16  p-4 bg-gray-100 pb-0"
             src={`https://api.dicebear.com/6.x/avataaars/svg?seed=${item.phone}`}
